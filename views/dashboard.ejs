@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Foods Homepage</title>
+    <style>
+        /* Reset some default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Style the container for food items */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Style individual food items */
+.food {
+    width: calc(33.33% - 20px); /* Distribute in a column of three with some spacing */
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background color for each food item */
+    transition: transform 0.2s ease-in-out; /* Add a subtle hover effect */
+}
+
+.food:hover {
+    transform: scale(1.05); /* Enlarge the item on hover */
+}
+
+.food h2 {
+    margin-bottom: 10px;
+    color: #333; /* Darken the heading text color */
+}
+
+.food img {
+    max-width: 100%;
+    height: auto;
+}
+
+    </style>
+</head>
+<body>
+    <form action="" method="get"></form>
+    <header>
+        <h1>Welcome to State Foods</h1>
+        <p>Explore the culinary delights of different states!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">States</a>
+        <a href="#">Recipes</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Signup</a>
+    </nav>
+    <div class="container">
+        
+        <div id="div1" class="food">
+            <h2>Andhra pradesh</h2>
+        <img src="https://tse2.mm.bing.net/th?id=OIP.XRlzSvMpOZce8qcK1nJsowHaE7&pid=Api&P=0&h=180">
+        </div>
+        <div id="div2" class="food">
+        <h2>Telangana</h2>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.9ep0_gfFRgNvaKjV1QXHHwHaFg&pid=Api&P=0&h=180">
+        </div>
+        <div id="div3" class="food">
+        <h2>Tamilnadu</h2>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.DIKdngOWGPEScka8Ci63DgHaD2&pid=Api&P=0&h=180">
+        </div>
+        <div  id="div4" class="food">
+        <h2>Uttar pradesh</h2>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.ZiG_4E1HhTKdyOP6tayNzwHaEK&pid=Api&P=0&h=180">
+        </div>
+        <div  id="div5" class="food">
+        <h2>Mizoram</h2>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.EF9y9a6UuFElBiB7ZPpHAwHaDt&pid=Api&P=0&h=180">
+        </div>
+        <div id="div6" class="food">
+        <h2>Himachal pradesh</h2>
+        <img src="https://www.hptourism.org/wp-content/uploads/2021/05/Bhey-350x233.jpg">
+        </div>
+    </div>
+</body>
+</html>
